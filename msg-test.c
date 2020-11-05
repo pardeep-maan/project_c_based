@@ -8,9 +8,9 @@
 void cttestset()
 {
     const char *m;
-    set_message("foo");
+    set_message("First");
     m = get_message();
-    assert(strcmp("foo", m) == 0);
+    assert(strcmp("First", m) == 0);
 }
 void cttestdefault()
 {
